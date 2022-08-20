@@ -57,17 +57,17 @@ export default class PeerPopup extends PureComponent {
 
                     <div className={"tab-Content " + this.props.popId} id="tab-1">
                          <div className="peerTitle01">Peer to Contract</div>
-                         <div className="peerText01">SmartSwap holds liquidity pools with locked LP funds, executing P2C (Peer-to-Contract) swaps. The liquidity pools execute swap orders when there is no counter party. Users that provide liquidity receive spread + SMART rewards in both native tokens and major cryptocurrencies like BNB or ETH.</div>
+                         <div className="peerText01">ThunderSwap holds liquidity pools with locked LP funds, executing P2C (Peer-to-Contract) swaps. The liquidity pools execute swap orders when there is no counter party. Users that provide liquidity receive spread + THUNDER rewards in both native tokens and major cryptocurrencies like BNB or ETH.</div>
 
                     </div> 
                     <div className={"tab-Content " + this.props.popId} id="tab-2">
                          <div className="peerTitle01">Peer to Peer</div>
-                         <div className="peerText01">P2P has two distinct processes. First, SmartSwap defaults to the P2P swap to check if there is someone that wants to swap against the order placed. Second, SmartSwap P2P allows users to generate a transaction ID that can be sent directly to a specific person they want to swap with. The transaction ID is created and the users send their digital assets to that transaction ID. Once the swap takes place, SmartSwap swaps for the same face value. If there is any delta it will be returned to the appropriate party.</div>
+                         <div className="peerText01">P2P has two distinct processes. First, ThunderSwap defaults to the P2P swap to check if there is someone that wants to swap against the order placed. Second, ThunderSwap P2P allows users to generate a transaction ID that can be sent directly to a specific person they want to swap with. The transaction ID is created and the users send their digital assets to that transaction ID. Once the swap takes place, ThunderSwap swaps for the same face value. If there is any delta it will be returned to the appropriate party.</div>
 
                     </div> 
                     <div className={"tab-Content " + this.props.popId} id="tab-3">
                          <div className="peerTitle01">Peer to Contract and Group</div>
-                         <div className="peerText01">If the liquidity contract does not have enough liquidity, the swap turns into a P2P&C swap, which means the swap partially executes and the rest remains pending until the contract rebalances itself through counterparties or liquidity providers (CEX or OTC) using a CeFi gateway that acts as a decentralized FLASH Swap. SmartSwap utilizes the Peer-to-Contract and Group (P2P&C) to search for as many counterparties as needed to cover the full face value of the transaction.</div>
+                         <div className="peerText01">If the liquidity contract does not have enough liquidity, the swap turns into a P2P&C swap, which means the swap partially executes and the rest remains pending until the contract rebalances itself through counterparties or liquidity providers (CEX or OTC) using a CeFi gateway that acts as a decentralized FLASH Swap. ThunderSwap utilizes the Peer-to-Contract and Group (P2P&C) to search for as many counterparties as needed to cover the full face value of the transaction.</div>
 
                     </div> 
 
