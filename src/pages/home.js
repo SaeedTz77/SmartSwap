@@ -4156,13 +4156,8 @@ export default class Home extends PureComponent {
                         
                         <div className="ssTitle01 wow fadeInUp mb-10" data-wow-delay="0.2s">Venture Partners</div>
 
-                        <div className="VPMainBX wow fadeInUp" data-wow-delay="0.4s">
-                          <div className="VPSubBX01">
-                            <img
-                              src="images/venture-partners/vpICON-01.png"
-                              alt=""
-                            />
-                          </div>
+
+
                           <div className="VPSubBX01">
                             <img
                               src="images/venture-partners/vpICON-02.png?v1"
