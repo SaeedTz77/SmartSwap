@@ -3890,42 +3890,9 @@ export default class Home extends PureComponent {
                           </div>
                         </div>
 
-                        <div className="ssTitle01 wow fadeInLeft" data-wow-delay="0.2s">
-                          SmartSwap AMA Series:
-                          <span>
-                            Alon Goren (Draper-Goren-Holm) and Yoda (Jude) Regev
-                          </span>
+                       
                         </div>
-                        <div className="videoMcontent wow fadeInLeft" data-wow-delay="0.4s">
-                          <div className="video-responsive">
-                            <iframe
-                              width="560"
-                              height="315"
-                              src="https://www.youtube.com/embed/LKtJ6oaFak0"
-                              title="YouTube video player"
-                              frameBorder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowFullScreen
-                            ></iframe>
-                          </div>
-                        </div>
-                        <div
-                          className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
-                          style={{ justifyContent: "center" }}
-                        >
-                          <Link to="/ownLicence" className="ssBtn01">
-                            FREE SMARTSWAP LICENSE
-                          </Link>
-                          <Link
-                            to="/"
-                            className="ssBtn02"
-                            onClick={() => {
-                              this.openPopup("LiquidityProvider");
-                            }}
-                          >
-                            <span>BECOME A SWAP PROVIDER</span>{" "}
-                          </Link>
-                        </div>
+                        
                         {/* <div className="ssTitle01">Market Prices </div>
                                     <div className="ssSearchBox">
                                         <div className="ssSearchMBox01">
