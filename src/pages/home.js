@@ -3679,28 +3679,29 @@ export default class Home extends PureComponent {
                         </div> */}
                   {/* <br />
                         <br /> */}
-                  {/* <!--======================= SWAP BLOCK START =====================--> */}
-                  <div className="swap-Block">
-                    <div className="swap-textBox" style={{ paddingTop: 0 }}>
-                      <div className="container-Grid" onPointerEnter={() => { this.updateTotalAmounts() }}>
-                        <div
-                          className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
-                          style={{ justifyContent: "center" }}
-                        >
-                          <Link to="/ownLicence" className="ssBtn01 ani-1">
-                            FREE SMARTSWAP LICENSE
-                          </Link>
-                          <Link
-                            to="/"
-                            className="ssBtn02 ani-1"
-                            onClick={() => {
-                              this.openPopup("LiquidityProvider");
-                            }}
-
-                          >
-                            <span>BECOME A SWAP PROVIDER</span>{" "}
-                          </Link>
-                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                 
+                        
+                        
+                        
+                        
+                        
                         {/* <div className="ssTitle01 wow fadeInUp" data-wow-delay="0.2s">
                           Alternative to AMMs with zero pools or LPs needed
                         </div> */}
@@ -3713,6 +3714,19 @@ export default class Home extends PureComponent {
                           SDEX is like PayPal creating a simple one-click layer
                           on top of banks to send and receive funds.
                         </div> */}
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
