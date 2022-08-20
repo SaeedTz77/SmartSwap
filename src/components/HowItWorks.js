@@ -50,32 +50,32 @@ export default class HowItWorks extends PureComponent {
                     <div className="MainTabBox" style={{ paddingTop: '80px' }}>
                         <div className="tab-Nav">
                             <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-4">How it Works</a>
-                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">SmartSwap vs Atomic Swap & Other Swaps</a>
+                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">ThunderSwap vs Atomic Swap & Other Swaps</a>
                         </div>
 
 
                         <div className={"tab-Content " + this.props.popId} id="tab-4">
                             <div className="peerTitle01">How it Works</div>
                             <div className="peerText01">
-                                <p>Smartswap’s contract utilizes a zero volatility patent pending method which prevents slippage and wholly reimburses users fees and gas costs. The swap works by letting users choose a token they want to swap (Token A) and then select a receiving token (Token B). Unlike a Decentralized Exchange (DEX) or Automated Market Maker (AMM), SmartSwap asks users the USD face value of the tokens they want to swap, rather than the token amount they want to receive.</p>
+                                <p>Thunderswap’s contract utilizes a zero volatility patent pending method which prevents slippage and wholly reimburses users fees and gas costs. The swap works by letting users choose a token they want to swap (Token A) and then select a receiving token (Token B). Unlike a Decentralized Exchange (DEX) or Automated Market Maker (AMM), SmartSwap asks users the USD face value of the tokens they want to swap, rather than the token amount they want to receive.</p>
 
-                                <p>Subsequently, with SmartSwap, users do not choose the value of Token A or how many tokens of Token B they want to receive. Instead, SmartSwap prices Token A and Token B based on the current average market price between multiple reliable exchanges.</p>
+                                <p>Subsequently, with ThunderSwap, users do not choose the value of Token A or how many tokens of Token B they want to receive. Instead, ThunderSwap prices Token A and Token B based on the current average market price between multiple reliable exchanges.</p>
 
                                 <p>Furthermore, when the user sends $1000 face value of Token A to receive Token B there is no possibility for them to receive $999 or $1001. SmartSwap executes the order with the exact same face value. In the case of an unmatched swap (due to counterparty different order amount or market volatility) the SmartSwap alters the order to receive less of Token B in order to match the face value, or alternatively return any excess to the user of which it belongs.</p>
 
-                                <p>Unlike AMM such uniswap, smartswap doesn't have any liquidity pools or liquidity providers (LP) structure. instead the smartswap work as a decentralized P2P with unique swap providers (SP) solution like a fountain driving liquidity from centralized exchanges </p>
+                                <p>Unlike AMM such uniswap, Thunderswap doesn't have any liquidity pools or liquidity providers (LP) structure. instead the thunderswap work as a decentralized P2P with unique swap providers (SP) solution like a fountain driving liquidity from centralized exchanges </p>
 
                             </div>
                         </div>
 
                         <div className="tab-Nav showMobile " style={{ width: '100%' }}>
-                            <a href="javascript:void(0)" className="tab-Link " onClick={ev => { ev.preventDefault(); }} data-id="tab-5">SmartSwap vs Atomic Swap & Other Swaps</a>
+                            <a href="javascript:void(0)" className="tab-Link " onClick={ev => { ev.preventDefault(); }} data-id="tab-5">ThunderSwap vs Atomic Swap & Other Swaps</a>
                         </div>
                         <div className={"tab-Content " + this.props.popId} id="tab-5">
-                            <div className="peerTitle01">SmartSwap vs Atomic Swap</div>
-                            <div className="peerText01"> SmartSwap utilizes technology that allows cross-chain swaps between two assets without validator risk, wrapping, or side-chain utilization. The cross-chain swap is a true one-click swap between blockchain networks. The cross-chain swap has the ability to act like a bridge between blockchain networks based smart contracts such as Ethereum<br /><br />
+                            <div className="peerTitle01">ThunderSwap vs Atomic Swap</div>
+                            <div className="peerText01"> ThunderSwap utilizes technology that allows cross-chain swaps between two assets without validator risk, wrapping, or side-chain utilization. The cross-chain swap is a true one-click swap between blockchain networks. The cross-chain swap has the ability to act like a bridge between blockchain networks based smart contracts such as Ethereum<br /><br />
 
-                                At the moment, SmartSwap supports swaps between BNB {'<>'} ETH and ERC20{'<>'}BEP20. SmartSwap capabilities present the first one-click swap that is not considered an atomic swap or reliant on time-locked swaps.
+                                At the moment, ThunderSwap supports swaps between BNB {'<>'} ETH and ERC20{'<>'}BEP20. ThunderSwap capabilities present the first one-click swap that is not considered an atomic swap or reliant on time-locked swaps.
 
                             </div>
                             <div className='smrtvsatoTable01'>
