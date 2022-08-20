@@ -2216,7 +2216,7 @@ export default class Home extends PureComponent {
         {this.state.isloading ? (
           <p>Loading</p>
         ) : (
-          <main id="main" className="smartSwap">
+          <main id="main" className="ThunderSwap">
             <div className="fullscreen-bg">
               <div className="fsbg_sad01"></div>
               <div className="fsbg_container">
@@ -3548,7 +3548,7 @@ export default class Home extends PureComponent {
                                 reimbursement
                               </div>
                               <p>
-                                Fees and gas reimbursed fully with SMART
+                                Fees and gas reimbursed fully with THUNDER
                                 <i className="help-circle">
                                   <i
                                     className="fas fa-question-circle protip"
@@ -3561,7 +3561,7 @@ export default class Home extends PureComponent {
                               </p>
                             </div>
                             <div id="reimburTip" style={{ display: "none" }}>
-                              <p style={{ marginTop: '0px' }}>SmartSwap users have the option to receive 100% reimbursement for their gas and swap fees. Users are able to claim reimbursements via the reimbursement staking contract. To release reimbursements users must stake the 1:1 equal amount of SMART for one year, but will be able to release partial amounts of the reimbursement if withdrawn at any time before the 1 year period . The pending balance accumulates and the user is able to claim the rest.</p>
+                              <p style={{ marginTop: '0px' }}>ThunderSwap users have the option to receive 100% reimbursement for their gas and swap fees. Users are able to claim reimbursements via the reimbursement staking contract. To release reimbursements users must stake the 1:1 equal amount of THUNDER for one year, but will be able to release partial amounts of the reimbursement if withdrawn at any time before the 1 year period . The pending balance accumulates and the user is able to claim the rest.</p>
                               <p style={{ marginBottom: '0px' }}>Example </p>
                               <p style={{ marginTop: '0px', marginBottom: '0px' }}>If over the year a user spent over $1000 or more on gas, at any time he can be reimbursed for such cost even if the SMART token value is higher due to appreciation. </p>
                             </div>
@@ -3586,7 +3586,7 @@ export default class Home extends PureComponent {
                               <div className="text-Title">
                                 100% <br /> free license
                               </div>
-                              <p>Build your own SmartSwap at no cost or become an affiliate </p>
+                              <p>Build your own ThunderSwap at no cost or become an affiliate </p>
                             </div>
                           </div>
                           <div className="swap-Box01">
@@ -3706,7 +3706,7 @@ export default class Home extends PureComponent {
                           Alternative to AMMs with zero pools or LPs needed
                         </div> */}
                         {/* <div className="ssText01 wow fadeInUp" data-wow-delay="0.4s" style={{ marginTop: "10px" }}>
-                          SmartSwap is the world's first smart decentralized
+                          ThunderSwap is the world's first smart decentralized
                           exchange (SDEX) providing a one-click slippage-free
                           cross-chain swap in a simple layer that decentralizes
                           the access to all CEX (Centralize exchanges) and OTC
@@ -3850,11 +3850,11 @@ export default class Home extends PureComponent {
                         
 
                         <div className="ssTitle01 wow fadeInLeft mb-25" data-wow-delay="0.2s">
-                          SMART Tokenomics in Action
+                          THUNDER Tokenomics in Action
                         </div>
                         <div className="ssText01 wow fadeInLeft" data-wow-delay="0.4s" style={{ marginTop: "0px" }}>
-                          SmartSwap does not utilize LPs or pools therefore fees
-                          are used to support SMART through automatic buybacks.{" "}
+                          ThunderSwap does not utilize LPs or pools therefore fees
+                          are used to support THUNDER through automatic buybacks.{" "}
                         </div>
 
                         <div className="stActMBX">
@@ -3887,7 +3887,7 @@ export default class Home extends PureComponent {
                           <div className="stActSbx01 wow zoomIn" data-wow-delay="0.3s">
                             {" "}
                             <span>
-                              Smart Bought and Burned
+                              THUNDER Bought and Burned
                             </span>
                             <div className="container">
                               <AnimatedNumber
@@ -4145,7 +4145,7 @@ export default class Home extends PureComponent {
                             <button className="submitBTN ani-1">COPY LINK</button>
                           </div>
                           <div className="smrtSwapInfoSBX">
-                          Share your link and receive 0.1% in SMART tokens for each swap you refer
+                          Share your link and receive 0.1% in THUNDER tokens for each swap you refer
                             <i className="help-circle">
                               <i
                                 className="fas fa-question-circle protip"
@@ -4154,7 +4154,7 @@ export default class Home extends PureComponent {
                                 aria-hidden="true"
                               ></i>
                             </i>
-                            | Total commission: <span>4526.32</span> SMART
+                            | Total commission: <span>4526.32</span> THUNDER
                           </div>
                         </div> */}
                       </div>
