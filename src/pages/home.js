@@ -4127,7 +4127,6 @@ export default class Home extends PureComponent {
                   </div>
                   {/* <!--======================= SWAP BLOCK END =====================--> */}
                 </div>
-              </div>
               {/* <!--======================= SELECT POPUP START =====================--> */}
               {/* <SelectToken/> */}
               {/* <!--======================= SELECT POPUP END =====================--> */}
