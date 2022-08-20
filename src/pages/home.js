@@ -2216,7 +2216,7 @@ export default class Home extends PureComponent {
         {this.state.isloading ? (
           <p>Loading</p>
         ) : (
-          <main id="main" className="ThunderSwap">
+          <main id="main" className="smartswap">
             <div className="fullscreen-bg">
               <div className="fsbg_sad01"></div>
               <div className="fsbg_container">
