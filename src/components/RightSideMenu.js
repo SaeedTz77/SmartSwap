@@ -75,12 +75,12 @@ export default class RightSideMenu extends PureComponent {
                 </a>
               </div>
               <div className="leftMenu mobile-block">
-                <Link to='/' className="active">SMARTSWAP</Link>
-                <Link to='/extension'>SMARTBRIDGE EXTENSION</Link>
-                <Link to='/projects'>SMARTBRIDGE FOR PROJECTS</Link>
+                <Link to='/' className="active">THUNDERSWAP</Link>
+                <Link to='/extension'>THUNDERBRIDGE EXTENSION</Link>
+                <Link to='/projects'>BRIDGE FOR PROJECTS</Link>
               </div>
               <div className="msb-Linkbox01">
-                <Link to="/ownLicence">Launch Branded SmartSwap</Link>
+                <Link to="/ownLicence">Launch Branded ThunderSwap</Link>
                 {/* <a
                   href="#"
                   onClick={() => {
@@ -89,7 +89,7 @@ export default class RightSideMenu extends PureComponent {
                 >
                   Become an Swap Provider (SP){" "}
                 </a> */}
-                <a href="#">Buy SMART</a>
+                <a href="#">Buy THUNDER</a>
               </div>
               <div className="msb-Linkbox02">
                 <a
@@ -119,7 +119,7 @@ export default class RightSideMenu extends PureComponent {
                       this.showWithId("HowItWorks", "tab-5");
                     }}
                   >
-                    SmartSwap vs Atomic Swap
+                    ThunderSwap vs Atomic Swap
                   </a>
                   <a
                     href="javascript:void(0);"
@@ -154,7 +154,7 @@ export default class RightSideMenu extends PureComponent {
                       this.showWithId("CefiToDefi", "tab-9");
                     }}
                   >
-                    SmartSwap Liquidity Process
+                    ThunderSwap Liquidity Process
                   </a>
                   <a href="javascript:void(0);">Ledger</a>
                   <a href="javascript:void(0);">100% Fee Reimbursement</a>
@@ -174,7 +174,7 @@ export default class RightSideMenu extends PureComponent {
                 <div className="msbLinkSubBox n-collapse in" id="msbSL-02">
                   {/* <a href="javascript:void(0);">GitHub</a> */}
                   <a
-                    href="https://docsend.com/view/24h32qhisbiunjqk"
+                    href="https://docsend.com/view/5ux7g4m6uwjs2h7y"
                     target="_blank"
                   >
                     Whitepaper
@@ -183,7 +183,7 @@ export default class RightSideMenu extends PureComponent {
                   {/* <a href="javascript:void(0);">Technical Documentation</a> */}
                   {/* <a href="javascript:void(0);">Pitch Deck</a> */}
                   <a
-                    href="https://docsend.com/view/24h32qhisbiunjqk"
+                    href="https://docsend.com/view/5ux7g4m6uwjs2h7y"
                     target="_blank"
                   >
                     One Page
@@ -194,7 +194,7 @@ export default class RightSideMenu extends PureComponent {
                         <a href="javascript:void(0);" className="active" data-toggle="n-collapse" data-target="#msbSL-03"
                             aria-expanded="false" aria-controls="msbSL-03">Library <i className="fas fa-caret-down"></i></a>
                         <div className="msbLinkSubBox n-collapse in" id="msbSL-03">
-                            <a href="javascript:void(0);">SmartSwap</a>
+                            <a href="javascript:void(0);">ThunderSwap</a>
                             <a href="javascript:void(0);">Branded Social Currency</a>
                         </div>
                     </div> */}
@@ -203,7 +203,7 @@ export default class RightSideMenu extends PureComponent {
                             aria-expanded="false" aria-controls="msbSL-04">Apply for License <i
                                 className="fas fa-caret-down"></i></a>
                         <div className="msbLinkSubBox n-collapse in" id="msbSL-04">
-                            <a href="javascript:void(0);">SmartSwap</a>
+                            <a href="javascript:void(0);">ThunderSwap</a>
                             <a href="javascript:void(0);">Branded Social Currency</a>
                         </div>
                     </div> */}
@@ -220,10 +220,10 @@ export default class RightSideMenu extends PureComponent {
                 </a>
                 <div className="msbLinkSubBox n-collapse in" id="msbSL-05">
                   {/*   */}
-                  <a href="https://twitter.com/SmartSwapEx" target="_blank">
+                  <a href="https://twitter.com/Thunderswap_io" target="_blank">
                     <i className="fab fa-twitter"></i>Twitter
                   </a>
-                  <a href="https://t.me/smartswap_exchange" target="_blank">
+                  <a href="https://t.me/thunderswap_io" target="_blank">
                     <i className="fab fa-telegram"></i>Telegram
                   </a>
                 </div>
@@ -291,7 +291,7 @@ export default class RightSideMenu extends PureComponent {
                     <img src="images/menu-rb-logo.png" alt="" />
                   </a>
                 </div>
-                <p>© 2021 SmartSwap Exchange All rights reserved</p>
+                <p>© 2022 ThunderSwap Exchange All rights reserved</p>
                 <div className="footer-Text">
                   <p className="pob">
                     Powered by <img src="images/atomFoundation-logo.png" alt="" />
