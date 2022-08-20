@@ -2216,7 +2216,7 @@ export default class Home extends PureComponent {
         {this.state.isloading ? (
           <p>Loading</p>
         ) : (
-          <main id="main" className="smartswap">
+          <main id="main" className="smartSwap">
             <div className="fullscreen-bg">
               <div className="fsbg_sad01"></div>
               <div className="fsbg_container">
@@ -3548,7 +3548,7 @@ export default class Home extends PureComponent {
                                 reimbursement
                               </div>
                               <p>
-                                Fees and gas reimbursed fully with THUNDER
+                                Fees and gas reimbursed fully with SMART
                                 <i className="help-circle">
                                   <i
                                     className="fas fa-question-circle protip"
@@ -3561,7 +3561,7 @@ export default class Home extends PureComponent {
                               </p>
                             </div>
                             <div id="reimburTip" style={{ display: "none" }}>
-                              <p style={{ marginTop: '0px' }}>ThunderSwap users have the option to receive 100% reimbursement for their gas and swap fees. Users are able to claim reimbursements via the reimbursement staking contract. To release reimbursements users must stake the 1:1 equal amount of THUNDER for one year, but will be able to release partial amounts of the reimbursement if withdrawn at any time before the 1 year period . The pending balance accumulates and the user is able to claim the rest.</p>
+                              <p style={{ marginTop: '0px' }}>SmartSwap users have the option to receive 100% reimbursement for their gas and swap fees. Users are able to claim reimbursements via the reimbursement staking contract. To release reimbursements users must stake the 1:1 equal amount of SMART for one year, but will be able to release partial amounts of the reimbursement if withdrawn at any time before the 1 year period . The pending balance accumulates and the user is able to claim the rest.</p>
                               <p style={{ marginBottom: '0px' }}>Example </p>
                               <p style={{ marginTop: '0px', marginBottom: '0px' }}>If over the year a user spent over $1000 or more on gas, at any time he can be reimbursed for such cost even if the SMART token value is higher due to appreciation. </p>
                             </div>
@@ -3586,7 +3586,7 @@ export default class Home extends PureComponent {
                               <div className="text-Title">
                                 100% <br /> free license
                               </div>
-                              <p>Build your own ThunderSwap at no cost or become an affiliate </p>
+                              <p>Build your own SmartSwap at no cost or become an affiliate </p>
                             </div>
                           </div>
                           <div className="swap-Box01">
@@ -3679,34 +3679,33 @@ export default class Home extends PureComponent {
                         </div> */}
                   {/* <br />
                         <br /> */}
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                 
-                        
-                        
-                        
-                        
-                        
+                  {/* <!--======================= SWAP BLOCK START =====================--> */}
+                  <div className="swap-Block">
+                    <div className="swap-textBox" style={{ paddingTop: 0 }}>
+                      <div className="container-Grid" onPointerEnter={() => { this.updateTotalAmounts() }}>
+                        <div
+                          className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
+                          style={{ justifyContent: "center" }}
+                        >
+                          <Link to="/ownLicence" className="ssBtn01 ani-1">
+                            FREE SMARTSWAP LICENSE
+                          </Link>
+                          <Link
+                            to="/"
+                            className="ssBtn02 ani-1"
+                            onClick={() => {
+                              this.openPopup("LiquidityProvider");
+                            }}
+
+                          >
+                            <span>BECOME A SWAP PROVIDER</span>{" "}
+                          </Link>
+                        </div>
                         {/* <div className="ssTitle01 wow fadeInUp" data-wow-delay="0.2s">
                           Alternative to AMMs with zero pools or LPs needed
                         </div> */}
                         {/* <div className="ssText01 wow fadeInUp" data-wow-delay="0.4s" style={{ marginTop: "10px" }}>
-                          ThunderSwap is the world's first smart decentralized
+                          SmartSwap is the world's first smart decentralized
                           exchange (SDEX) providing a one-click slippage-free
                           cross-chain swap in a simple layer that decentralizes
                           the access to all CEX (Centralize exchanges) and OTC
@@ -3714,32 +3713,6 @@ export default class Home extends PureComponent {
                           SDEX is like PayPal creating a simple one-click layer
                           on top of banks to send and receive funds.
                         </div> */}
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
                         <div className="ssTitle01 wow fadeInRight" data-wow-delay="0.2s">Supporting blockchains</div>
                         <Carousel className="wow fadeInRight caro-1" data-wow-delay="0.3s"
                           swipeable={false}
@@ -3840,21 +3813,13 @@ export default class Home extends PureComponent {
                             <img src={SBLogo011} alt="" />{" "}
                           </div>
                         </Carousel>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
 
                         <div className="ssTitle01 wow fadeInLeft mb-25" data-wow-delay="0.2s">
-                          THUNDER Tokenomics in Action
+                          SMART Tokenomics in Action
                         </div>
                         <div className="ssText01 wow fadeInLeft" data-wow-delay="0.4s" style={{ marginTop: "0px" }}>
-                          ThunderSwap does not utilize LPs or pools therefore fees
-                          are used to support THUNDER through automatic buybacks.{" "}
+                          SmartSwap does not utilize LPs or pools therefore fees
+                          are used to support SMART through automatic buybacks.{" "}
                         </div>
 
                         <div className="stActMBX">
@@ -3887,7 +3852,7 @@ export default class Home extends PureComponent {
                           <div className="stActSbx01 wow zoomIn" data-wow-delay="0.3s">
                             {" "}
                             <span>
-                              THUNDER Bought and Burned
+                              Smart Bought and Burned
                             </span>
                             <div className="container">
                               <AnimatedNumber
@@ -3925,9 +3890,42 @@ export default class Home extends PureComponent {
                           </div>
                         </div>
 
-                       
+                        <div className="ssTitle01 wow fadeInLeft" data-wow-delay="0.2s">
+                          SmartSwap AMA Series:
+                          <span>
+                            Alon Goren (Draper-Goren-Holm) and Yoda (Jude) Regev
+                          </span>
                         </div>
-                        
+                        <div className="videoMcontent wow fadeInLeft" data-wow-delay="0.4s">
+                          <div className="video-responsive">
+                            <iframe
+                              width="560"
+                              height="315"
+                              src="https://www.youtube.com/embed/LKtJ6oaFak0"
+                              title="YouTube video player"
+                              frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                            ></iframe>
+                          </div>
+                        </div>
+                        <div
+                          className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
+                          style={{ justifyContent: "center" }}
+                        >
+                          <Link to="/ownLicence" className="ssBtn01">
+                            FREE SMARTSWAP LICENSE
+                          </Link>
+                          <Link
+                            to="/"
+                            className="ssBtn02"
+                            onClick={() => {
+                              this.openPopup("LiquidityProvider");
+                            }}
+                          >
+                            <span>BECOME A SWAP PROVIDER</span>{" "}
+                          </Link>
+                        </div>
                         {/* <div className="ssTitle01">Market Prices </div>
                                     <div className="ssSearchBox">
                                         <div className="ssSearchMBox01">
@@ -4129,10 +4127,291 @@ export default class Home extends PureComponent {
                                         </a>
                                     </div> */}
 
+                        {/* <div className="ssBTNbar01">
+                                        <Link to="/ownLicence" className="ssBtn02">
+                                            Get your own free license{' '}
+                                        </Link>
+                                        <Link to="/SmartSwapLicence" className="ssBtn03">
+                                            become a partner{' '}
+                                        </Link>
+                                    </div> */}
 
-                        
-                     
-                              
+                        <div className="ssTitle01 wow fadeInUp mb-10" data-wow-delay="0.2s">License Partners</div>
+                        <div
+                          className="VPMainBX wow fadeInUp" data-wow-delay="0.4s"
+                          style={{
+                            justifyContent: "center",
+                            marginBottom: "80px",
+                          }}
+                        >
+                          <div className="VPSubBX01">
+                            {" "}
+                            <img src="images/lp-logo01.png" alt="" />{" "}
+                          </div>
+                          <div className="VPSubBX01">
+                            {" "}
+                            <img src="images/lp-logo02.png" alt="" />{" "}
+                          </div>
+                        </div>
+
+                        <div className="ssTitle01 wow fadeInUp mb-10" data-wow-delay="0.2s">Venture Partners</div>
+
+                        <div className="VPMainBX wow fadeInUp" data-wow-delay="0.4s">
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-01.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-02.png?v1"
+                              alt=""
+                            />
+                            Hassan (Hatu) Sheikh
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-03.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/bitangels.png"
+                              alt=""
+                            />
+                            Michael Terpin
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-04.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-05.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/silent.png"
+                              alt=""
+                            />
+                            Andrea Castiglione
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-07.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-08.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-09.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-010.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/mexc.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-012.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-013.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/fairum.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-014.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-015.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-016.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-017.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-018.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-019.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-020.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-021.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-022.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-023.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-024.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-025.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-026.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-027.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-029.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-030.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-031V2.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-032.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-033.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-034.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-035.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-036.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-037.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-038.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-039.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/vpICON-040.png"
+                              alt=""
+                            />
+                          </div>
+                          <div className="VPSubBX01">
+                            <img
+                              src="images/venture-partners/legion.png"
+                              alt=""
+                            />
+                          </div>
                         </div>
                         {/* <div className="smrtSwapNewsletterBX wow fadeInUp" data-wow-delay="0.2s">
                           <button className='smrtNLBTN01'>Connect Your Wallet To Become An Affiliate</button>
@@ -4145,7 +4424,7 @@ export default class Home extends PureComponent {
                             <button className="submitBTN ani-1">COPY LINK</button>
                           </div>
                           <div className="smrtSwapInfoSBX">
-                          Share your link and receive 0.1% in THUNDER tokens for each swap you refer
+                          Share your link and receive 0.1% in SMART tokens for each swap you refer
                             <i className="help-circle">
                               <i
                                 className="fas fa-question-circle protip"
@@ -4154,14 +4433,15 @@ export default class Home extends PureComponent {
                                 aria-hidden="true"
                               ></i>
                             </i>
-                            | Total commission: <span>4526.32</span> THUNDER
+                            | Total commission: <span>4526.32</span> SMART
                           </div>
                         </div> */}
                       </div>
-                   
-                  
+                    </div>
+                  </div>
                   {/* <!--======================= SWAP BLOCK END =====================--> */}
-              
+                </div>
+              </div>
               {/* <!--======================= SELECT POPUP START =====================--> */}
               {/* <SelectToken/> */}
               {/* <!--======================= SELECT POPUP END =====================--> */}
@@ -4234,7 +4514,7 @@ export default class Home extends PureComponent {
               ></SidePopup>
               {/* <!--======================= SIDE POPUP END =====================--> */}
               {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/gnaJlUA20lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-           
+            </div>
           </main>
         )}
       </>
