@@ -4127,17 +4127,6 @@ export default class Home extends PureComponent {
                                         </a>
                                     </div> */}
 
-                        {/* <div className="ssBTNbar01">
-                                        <Link to="/ownLicence" className="ssBtn02">
-                                            Get your own free license{' '}
-                                        </Link>
-                                        <Link to="/SmartSwapLicence" className="ssBtn03">
-                                            become a partner{' '}
-                                        </Link>
-                                    </div> */}
- 
-                        
-                       
 
                         
                      
