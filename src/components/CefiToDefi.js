@@ -52,12 +52,12 @@ export default class CefiToDefi extends PureComponent {
                             <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-7">
                                 CeFi to DeFi</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-8">What is a Swap Provider</a>
-                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">SmartSwap Liquidity Process</a>
+                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">ThunderSwap Liquidity Process</a>
                         </div>
 
                         <div className={"tab-Content " + this.props.popId} id="tab-7">
                             <div className="peerTitle01">DECENTRALIZED CeFi {'<>'} DeFi BRIDGE</div>
-                            <div className="peerText01">Now, without signing up to a CEX, doing time-consuming KYC on multiple platforms, or dealing with order book volatility, users can still benefit from CEX liquidity through SmartSwap. SmartSwap provides a true bridge between CeFi and DeFi with one simple click access to liquidity, even while keeping self custody of the assets.</div>
+                            <div className="peerText01">Now, without signing up to a CEX, doing time-consuming KYC on multiple platforms, or dealing with order book volatility, users can still benefit from CEX liquidity through ThunderSwap. ThunderSwap provides a true bridge between CeFi and DeFi with one simple click access to liquidity, even while keeping self custody of the assets.</div>
                         </div>
 
                         <div className="tab-Nav showMobile " style={{ width: '100%' }} >
@@ -69,7 +69,7 @@ export default class CefiToDefi extends PureComponent {
                         <div className={"tab-Content " + this.props.popId} id="tab-8">
 
                             <div className="peerTitle01">What is a Swap Provider?</div>
-                            <div className="peerText01">SmartSwap allows anyone with a Centralized Exchange account, like Binance, to utilize a simple decentralized API and become an Swap Provider (SP). The SP’s drive liquidity into SmartSwap allows the SP to earn automatic spread on their favorite tokens.<br />
+                            <div className="peerText01">ThunderSwap allows anyone with a Centralized Exchange account, like Binance, to utilize a simple decentralized API and become an Swap Provider (SP). The SP’s drive liquidity into ThunderSwap allows the SP to earn automatic spread on their favorite tokens.<br />
 
                             </div>
 
@@ -78,12 +78,12 @@ export default class CefiToDefi extends PureComponent {
                         </div>
 
                         <div className="tab-Nav showMobile " style={{ width: '100%' }} >
-                            <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">SmartSwap Liquidity Process</a>
+                            <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">ThunderSwap Liquidity Process</a>
                         </div>
                         <div className={"tab-Content " + this.props.popId} id="tab-9">
-                            <div className="peerTitle01">SmartSwap Liquidity Process</div>
+                            <div className="peerTitle01">ThunderSwap Liquidity Process</div>
                             <div className="peerText01-v2"><i>1</i> User initiates a swap order </div>
-                            <div className="peerText01-v2"><i>2</i> SmartSwap searches for a counterparty (Peer-to-Peer) </div>
+                            <div className="peerText01-v2"><i>2</i> ThunderSwap searches for a counterparty (Peer-to-Peer) </div>
                             <div className="peerText01-v2"><i>3</i> If there is not enough liquidity, the swap order automatically triggers the liquidity from Swap Providers  </div>
                             <div className="peerText01-v2"><i>4</i> If a counterparty is not found and there is not enough liquidity from Swap Providers, the swap will remain pending until the Swap Providers recycle their liquidity like a fountain.</div>
                             <div className="peerText01-v2"><i>5</i> If pending orders execute at a later time, users receive in return the exact same face value at the time of execution. </div>
