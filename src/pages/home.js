@@ -3687,6 +3687,15 @@ export default class Home extends PureComponent {
                           className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
                         
+                        
+                        
+                         <Link
+                            to="/"
+                            className="ssBtn02 ani-1"
+                            onClick={() => {
+                              this.openPopup("LiquidityProvider");
+                            }}
+
 
                           >
                             <span>BECOME A SWAP PROVIDER</span>{" "}
