@@ -4164,13 +4164,7 @@ export default class Home extends PureComponent {
                             />
                           </div>
 
-                          <div className="VPSubBX01">
-                            <img
-                              src="images/venture-partners/vpICON-02.png?v1"
-                              alt=""
-                            />
-                            Hassan (Hatu) Sheikh
-                          </div>
+                        
                           <div className="VPSubBX01">
                             <img
                               src="images/venture-partners/vpICON-03.png"
