@@ -4039,6 +4039,10 @@ export default class Home extends PureComponent {
                           <Link to="/ownLicence" className="ssBtn01">
                             FREE THUNDERSWAP LICENSE
                           </Link>
+                          >
+                          <Link to="/ownLicence" className="ssBtn01">
+                            FREE THUNDERSWAP LICENSE
+                          </Link>
                         </div>
                         {/* <div className="ssTitle01">Market Prices </div>
                                     <div className="ssSearchBox">
