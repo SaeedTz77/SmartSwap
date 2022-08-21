@@ -4022,10 +4022,7 @@ export default class Home extends PureComponent {
                         <div
                           className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
-                        >
-                          <Link to="/ownLicence" className="ssBtn01">
-                            FREE THUNDERSWAP LICENSE
-                          </Link>
+                       
                           <Link
                             to="/"
                             className="ssBtn02"
@@ -4034,14 +4031,6 @@ export default class Home extends PureComponent {
                             }}
                           >
                             <span>BECOME A SWAP PROVIDER</span>{" "}
-                          </Link>
-                          >
-                          <Link to="/ownLicence" className="ssBtn01">
-                            FREE THUNDERSWAP LICENSE
-                          </Link>
-                          >
-                          <Link to="/ownLicence" className="ssBtn01">
-                            FREE THUNDERSWAP LICENSE
                           </Link>
                         </div>
                         {/* <div className="ssTitle01">Market Prices </div>
