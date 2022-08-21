@@ -288,9 +288,6 @@ export default class Header extends PureComponent {
                 <div className="lanIconbox">
                   <i className="lanicon015 translateLanguage"></i>
                 </div>
-                <div id="google_translate_element"></div>
-              </a>{" "}
-            </div>
           </div>
         </div>
       </header>
