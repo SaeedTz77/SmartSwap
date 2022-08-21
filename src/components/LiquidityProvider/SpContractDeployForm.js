@@ -660,9 +660,9 @@ export default class SpContractDeployForm extends Component {
                         <div className="LiProTitle02">RECEIVED</div>
                     </div>
                     <div className="LiProfSbox01">
-                        <div className="LiProLable">Choose the token A to sell on Smartswap<i className="help-circle"><i className="fas fa-question-circle protip" data-pt-position="top" data-pt-title="Total amount circulating as a swap provider. 
+                        <div className="LiProLable">Choose the token A to sell on Thunderswap<i className="help-circle"><i className="fas fa-question-circle protip" data-pt-position="top" data-pt-title="Total amount circulating as a swap provider. 
         <br/><br/>
-        For example, selecting $100,000 means up $100,000 circulates to support SmartSwap liquidity" aria-hidden="true"></i></i></div>
+        For example, selecting $100,000 means up $100,000 circulates to support ThunderSwap liquidity" aria-hidden="true"></i></i></div>
                         <div className="bspMBX01">
                             <div className="bspSBX01 fw">
                                 <div className="LiproDropdown">
@@ -699,7 +699,7 @@ export default class SpContractDeployForm extends Component {
                         </div>
                     </div>
                     <div className="LiProfSbox02">
-                        <div className="LiProLable">Choose token B to receive from SmartSwap</div>
+                        <div className="LiProLable">Choose token B to receive from ThunderSwap</div>
                         <div className="LiproDropdown">
                             <button className='LiproDDbtn01' onClick={() => this.toggle(2)} >
                                 <div className="ddIconBX"> <span> <img src={this.state.coinList[this.state.selectedTokenB]['icon']} alt="" /></span> {this.state.coinList[this.state.selectedTokenB]['symbol']}</div>
