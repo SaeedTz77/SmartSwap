@@ -79,16 +79,7 @@ export default class RightSideMenu extends PureComponent {
                 <Link to='/extension'>THUNDERBRIDGE EXTENSION</Link>
                 <Link to='/projects'>BRIDGE FOR PROJECTS</Link>
               </div>
-              <div className="msb-Linkbox01">
-                <Link to="/ownLicence">Launch Branded ThunderSwap</Link>
-                {/* <a
-                  href="#"
-                  onClick={() => {
-                    this.props.openPopup("LiquidityProvider");
-                  }}
-                >
-                  Become an Swap Provider (SP){" "}
-                </a> */}
+<div className="msb-Linkbox01">
                 <a href="#">Buy THUNDER</a>
               </div>
               <div className="msb-Linkbox02">
