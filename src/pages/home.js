@@ -4328,7 +4328,7 @@ export default class Home extends PureComponent {
                 openPopup={this.openPopup}
                 subDomainName={this.state.subDomainName}
               ></NoDomain>
-              {/* <!--======================= COIN POPUP END =====================-->
+              {/* <!--======================= COIN POPUP END =====================--> */}
                 
           </main>
         )}
