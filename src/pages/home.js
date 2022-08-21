@@ -4336,3 +4336,7 @@ export default class Home extends PureComponent {
     );
   }
 }
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
