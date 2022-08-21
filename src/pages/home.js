@@ -3736,40 +3736,7 @@ export default class Home extends PureComponent {
                         
                         
                         
-                  {/* <!--======================= SWAP BLOCK START =====================--> */}
-                  <div className="swap-Block">
-                    <div className="swap-textBox" style={{ paddingTop: 0 }}>
-                      <div className="container-Grid" onPointerEnter={() => { this.updateTotalAmounts() }}>
-                        <div
-                          className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
-                          style={{ justifyContent: "center" }}
-                        >
-                          <Link to="/ownLicence" className="ssBtn01 ani-1">
-                            FREE THUNDERSWAP LICENSE
-                          </Link>
-                          <Link
-                            to="/"
-                            className="ssBtn02 ani-1"
-                            onClick={() => {
-                              this.openPopup("LiquidityProvider");
-                            }}
-
-                          >
-                            <span>BECOME A SWAP PROVIDER</span>{" "}
-                          </Link>
-                        </div>
-                        {/* <div className="ssTitle01 wow fadeInUp" data-wow-delay="0.2s">
-                          Alternative to AMMs with zero pools or LPs needed
-                        </div> */}
-                        {/* <div className="ssText01 wow fadeInUp" data-wow-delay="0.4s" style={{ marginTop: "10px" }}>
-                          SmartSwap is the world's first smart decentralized
-                          exchange (SDEX) providing a one-click slippage-free
-                          cross-chain swap in a simple layer that decentralizes
-                          the access to all CEX (Centralize exchanges) and OTC
-                          (Over-the-counter) industry. The best way to think of
-                          SDEX is like PayPal creating a simple one-click layer
-                          on top of banks to send and receive funds.
-                        </div> */}
+                
                         
                         
                         
