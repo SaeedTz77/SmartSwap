@@ -4329,17 +4329,7 @@ export default class Home extends PureComponent {
                 subDomainName={this.state.subDomainName}
               ></NoDomain>
               {/* <!--======================= COIN POPUP END =====================-->
-                    <!--======================= SIDE POPUP START =====================--> */}
-              <SidePopup
-                web3={this.state.web3}
-                web3Config={web3Config}
-                closePopup={() => { this.setState({ sideBar: false }) }}
-                openPopup={this.openPopup}
-                sideBar={this.state.sideBar}
-              ></SidePopup>
-              {/* <!--======================= SIDE POPUP END =====================--> */}
-              {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/gnaJlUA20lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-            </div>
+                
           </main>
         )}
       </>
