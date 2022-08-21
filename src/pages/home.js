@@ -207,7 +207,7 @@ export default class Home extends PureComponent {
   }
 
   handleClick() {
-    if (this.state.sideBar == true) {
+    if (this.state.si    deBar == true) {
       this.setState({
         sideBar: false
       });
@@ -2274,6 +2274,29 @@ export default class Home extends PureComponent {
                         </div> */}
                   {/* <br />
                         <br /> */}
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                   {/* <!--======================= SWAP BLOCK START =====================--> */}
                   <div className="swap-Block">
                     <div className="container-Grid">
@@ -2283,7 +2306,7 @@ export default class Home extends PureComponent {
                       //     this.openPopup('About');
                       // }}
                       >
-                        <span>One click</span> DECENTRALIZED MULTICHAIN SMART SWAP
+                        <span>One click</span> DECENTRALIZED MULTICHAIN SWAP
                       </div>
                       <div className="smvTitle02 wow fadeInUp" data-wow-delay="0.2s">
                         {/* Unlimited Liquidity CeFi to Defi Decentralized Bridge <span style={{ color: '#525252' }}>|</span> AMM Alternative */}
@@ -3548,7 +3571,7 @@ export default class Home extends PureComponent {
                                 reimbursement
                               </div>
                               <p>
-                                Fees and gas reimbursed fully with SMART
+                                Fees and gas reimbursed fully with THUNDER
                                 <i className="help-circle">
                                   <i
                                     className="fas fa-question-circle protip"
@@ -3586,7 +3609,7 @@ export default class Home extends PureComponent {
                               <div className="text-Title">
                                 100% <br /> free license
                               </div>
-                              <p>Build your own SmartSwap at no cost or become an affiliate </p>
+                              <p>Build your own ThunderSwap at no cost or become an affiliate </p>
                             </div>
                           </div>
                           <div className="swap-Box01">
@@ -3679,6 +3702,40 @@ export default class Home extends PureComponent {
                         </div> */}
                   {/* <br />
                         <br /> */}
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                   {/* <!--======================= SWAP BLOCK START =====================--> */}
                   <div className="swap-Block">
                     <div className="swap-textBox" style={{ paddingTop: 0 }}>
@@ -3688,7 +3745,7 @@ export default class Home extends PureComponent {
                           style={{ justifyContent: "center" }}
                         >
                           <Link to="/ownLicence" className="ssBtn01 ani-1">
-                            FREE SMARTSWAP LICENSE
+                            FREE THUNDERSWAP LICENSE
                           </Link>
                           <Link
                             to="/"
@@ -3713,6 +3770,42 @@ export default class Home extends PureComponent {
                           SDEX is like PayPal creating a simple one-click layer
                           on top of banks to send and receive funds.
                         </div> */}
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         <div className="ssTitle01 wow fadeInRight" data-wow-delay="0.2s">Supporting blockchains</div>
                         <Carousel className="wow fadeInRight caro-1" data-wow-delay="0.3s"
                           swipeable={false}
@@ -3813,13 +3906,46 @@ export default class Home extends PureComponent {
                             <img src={SBLogo011} alt="" />{" "}
                           </div>
                         </Carousel>
-
                         <div className="ssTitle01 wow fadeInLeft mb-25" data-wow-delay="0.2s">
-                          SMART Tokenomics in Action
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                          THUNDER Tokenomics in Action
                         </div>
                         <div className="ssText01 wow fadeInLeft" data-wow-delay="0.4s" style={{ marginTop: "0px" }}>
-                          SmartSwap does not utilize LPs or pools therefore fees
-                          are used to support SMART through automatic buybacks.{" "}
+                          ThunderSwap does not utilize LPs or pools therefore fees
+                          are used to support THUNDER through automatic buybacks.{" "}
                         </div>
 
                         <div className="stActMBX">
@@ -3852,7 +3978,7 @@ export default class Home extends PureComponent {
                           <div className="stActSbx01 wow zoomIn" data-wow-delay="0.3s">
                             {" "}
                             <span>
-                              Smart Bought and Burned
+                              THUNDER Bought and Burned
                             </span>
                             <div className="container">
                               <AnimatedNumber
@@ -3891,12 +4017,47 @@ export default class Home extends PureComponent {
                         </div>
 
                        
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
                         <div
                           className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
                         >
                           <Link to="/ownLicence" className="ssBtn01">
-                            FREE SMARTSWAP LICENSE
+                            FREE THUNDERSWAP LICENSE
                           </Link>
                           <Link
                             to="/"
