@@ -207,7 +207,7 @@ export default class Home extends PureComponent {
   }
 
   handleClick() {
-    if (this.state.si    deBar == true) {
+    if (this.state.sideBar == true) {
       this.setState({
         sideBar: false
       });
