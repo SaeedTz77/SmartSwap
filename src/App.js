@@ -12,7 +12,7 @@ import Extension from './pages/extension';
 import ownLicence from './pages/ownLicence';
 import ownLicence02 from './pages/ownLicence02';
 import SmartSwapLicence from './pages/smartSwapLicence';
-
+import footer from '.components/footer';
 const DefaultRouter = () => (
   <Router>
     <Switch>
@@ -32,6 +32,9 @@ const DefaultRouter = () => (
     </Switch>
     <Switch>
       <Route path="/extension" component={Extension} />
+    </Switch>
+<Switch>
+      <Route path="/footer" component={footer} />
     </Switch>
   </Router>
 )
