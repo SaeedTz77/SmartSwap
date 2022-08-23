@@ -3,11 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa";
 import Media from "./../Theme/media-breackpoint";
-import FooterLogo from "../Assets/images/footer-doodle.png";
-import Icon6 from "../Assets/images/icon-6.png";
-import BinanceLogo from "../Assets/images/binance-logo.png";
-import ETHLogo from "../Assets/images/eth-logo.png";
-import PolyGonLogo from "../Assets/images/polygon-logo.png";
 
 const Footer = ({setResetFlag, resetFlag}) => {
   const setPool = () => {
