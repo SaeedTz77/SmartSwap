@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Media from "./../Theme/media-breackpoint";
+import Icon6 from "../Assets/images/icon-6.png";
+import FooterLogo from "../Assets/images/footer-doodle.png";
 const Footer = ({setResetFlag, resetFlag}) => {
   const setPool = () => {
     setResetFlag(!resetFlag);
@@ -8,7 +11,7 @@ const Footer = ({setResetFlag, resetFlag}) => {
   return (
     <FooterMain>
       <FooterLeft>
-        <img src={FooterLogo} alt="" className="doodle" />
+    <img src={FooterLogo} alt="" className="doodle" />
         <div className="footer-detail">
           <img src={Icon6} alt="" />
           <ValueText>$0.2153</ValueText>
