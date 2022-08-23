@@ -54,7 +54,6 @@ import Switch from "react-switch";
 import Collapse from "@kunukn/react-collapse";
 import Dropdown from "../components/DropDown";
 import Counter from "../components/Counter";
-import footer from "../components/footer";
 
 const responsive = {
   desktop: {
