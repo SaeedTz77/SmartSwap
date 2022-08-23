@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Media from "./../Theme/media-breackpoint";
-import Icon6 from "../Assets/images/icon-6.png";
-import FooterLogo from "../Assets/images/footer-doodle.png";
+import Icon6 from "../publuic/images/ada.png";
+import FooterLogo from "../public/images/ankr.png";
 const Footer = ({setResetFlag, resetFlag}) => {
   const setPool = () => {
     setResetFlag(!resetFlag);
