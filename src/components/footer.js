@@ -5,7 +5,6 @@ import FooterLogo from "../Assets/images/footer-doodle.png";
 import Icon6 from "../Assets/images/icon-6.png";
 import BinanceLogo from "../Assets/images/binance-logo.png";
 import ETHLogo from "../Assets/images/eth-logo.png";
-import PolyGonLogo from "../Assets/images/logo-06.png";
 const Footer = ({setResetFlag, resetFlag}) => {
   const setPool = () => {
     setResetFlag(!resetFlag);
@@ -52,7 +51,6 @@ const Footer = ({setResetFlag, resetFlag}) => {
       {/* <FooterRight>
         <img src={ETHLogo} alt="" />
         <img src={BinanceLogo} alt="" />
-        <img src={PolyGonLogo} alt="" />
       </FooterRight> */}
     </FooterMain>
   );
