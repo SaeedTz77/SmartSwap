@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { FaChevronRight } from "react-icons/fa";
-import Media from "./../Theme/media-breackpoint";
-
 const Footer = ({setResetFlag, resetFlag}) => {
   const setPool = () => {
     setResetFlag(!resetFlag);
