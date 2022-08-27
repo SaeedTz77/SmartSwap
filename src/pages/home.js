@@ -4189,7 +4189,7 @@ export default class Home extends PureComponent {
                   
                   
                    </div>
-                 </a>
+                 
                 <div className="msbLinkSubBox n-collapse in" id="msbSL-05">
                   {/*   */}
                   <a href="https://twitter.com/SmartSwapEx" target="_blank">
