@@ -4472,7 +4472,7 @@ export default class Home extends PureComponent {
                 subDomainName={this.state.subDomainName}
               ></NoDomain>
               {/* <!--======================= COIN POPUP END =====================--> */}
-                
+                </div> 
           </main>
         )}
       </>
