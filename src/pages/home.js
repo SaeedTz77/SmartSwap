@@ -4215,7 +4215,7 @@ export default class Home extends PureComponent {
             </li>
             
             
-            </li>
+           
             {/* <li>
               <a href="#">Github</a>
               <span className="column"></span>
