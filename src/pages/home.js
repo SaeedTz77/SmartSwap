@@ -4149,7 +4149,7 @@ export default class Home extends PureComponent {
                   </a>
                   className="ssBtn01 ani-1">
                             whitepaper
-                          </Link>
+                          </div>
                           
                           
                           
