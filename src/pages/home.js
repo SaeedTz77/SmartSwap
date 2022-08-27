@@ -4042,43 +4042,10 @@ export default class Home extends PureComponent {
                                         <div className="s20ttextbox02">OPERATIN/Team & Advisors</div>
                                     </div>
                                    
-                                    <div className="s20Teambox01 clearfix">
-                                        <div className="s20tImgbox ani-5">
-                                            <div className="s20RotaterBox"><a href="mailto:david@jointer.io" target="_blank" className="teamLinkIcon"></a>
-                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-02.png" /></div>
-                                            </div>
-                                            <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/5/t3-ss_X2yzDCr.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/5/t3-ss_X2yzDCr.png" /> </div>
-                                        </div>
-                                        <div className="s20ttextbox"> <span>David Weild IV</span>V. Chairman at NASDAQ and the “father” of the JOBS Act</div>
-                                    </div>
-                                    <div className="s20Teambox01 clearfix" >
-                                        <div className="s20tImgbox ani-5">
-                                            <div className="s20RotaterBox"><a href="mailto:mike@jointer.io" target="_blank" className="teamLinkIcon"></a>
-                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-03.png" /></div>
-                                            </div>
-                                            <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/6/t4-ss_cODnYZo.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/6/t4-ss_cODnYZo.png" /> </div>
-                                        </div>
-                                        <div className="s20ttextbox"> <span> Mike Lorrey</span>CTO Advisor<br />
-                                            The co-creator of the prototype of Bitcoin</div>
-                                    </div>
-                                    <div className="s20Teambox01 clearfix" >
-                                        <div className="s20tImgbox ani-5">
-                                            <div className="s20RotaterBox"><a href="mailto:ken@jointer.io" target="_blank" className="teamLinkIcon"></a>
-                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-04.png" /></div>
-                                            </div>
-                                            <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/8/t6-ss_PqgnxCI.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/8/t6-ss_PqgnxCI.png" /> </div>
-                                        </div>
-                                        <div className="s20ttextbox"> <span>Ken Goldman</span>Former Chief Financial Officer of Yahoo! </div>
-                                    </div>
-                                    <div className="s20Teambox01 clearfix" >
-                                        <div className="s20tImgbox ani-5">
-                                            <div className="s20RotaterBox"><a href="https://www.linkedin.com/in/bourgi87/" target="_blank" className="teamLinkIcon"></a>
-                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-05.png" /></div>
-                                            </div>
-                                            <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/10/sam_burgin_icon_HVcCc9e.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/10/sam_burgin_icon_HVcCc9e.png" /> </div>
-                                        </div>
-                                        <div className="s20ttextbox"> <span> Sam Bourgi</span> Chief Editor Hacked.com</div>
-                                    </div>
+                                    
+                                   
+                                   
+                                   
                                     <div className="s20Teambox01 clearfix" data-105500-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-106500-start="opacity:1; transform: scale(1) translate(0px, 0px);">
                                         <div className="s20tImgbox ani-5">
                                             <div className="s20RotaterBox"><a href="https://www.linkedin.com/in/koen-maris-3791811/" target="_blank" className="teamLinkIcon"></a>
