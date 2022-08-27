@@ -4188,7 +4188,7 @@ export default class Home extends PureComponent {
                   </p>
                   
                   
-                  
+                   </div>
                  </a>
                 <div className="msbLinkSubBox n-collapse in" id="msbSL-05">
                   {/*   */}
@@ -4198,7 +4198,7 @@ export default class Home extends PureComponent {
                   <a href="https://t.me/smartswap_exchange" target="_blank">
                     <i className="fab fa-telegram"></i>Telegram
                   </a>
-                </div>
+               
                 </div>
               </div>
                       
