@@ -4175,13 +4175,48 @@ export default class Home extends PureComponent {
                         
                         
                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                          <div className="footer-Bottom">
                 <div className="footer-Logo">
                   <a href="javascript:void(0);">
                     <img src="images/menu-rb-logo.png" alt="" />
                   </a>
                 </div>
-                <p>© 2021 SmartSwap Exchange All rights reserved</p>
+                <p>© 2021 SmartSwap Exchange All rights reserved
+                
+                 <div className="msbLinkSubBox n-collapse in" id="msbSL-05">
+                  {/*   */}
+                  <a href="https://twitter.com/SmartSwapEx" target="_blank">
+                    <i className="fab fa-twitter"></i>Twitter
+                  </a>
+                  <a href="https://t.me/smartswap_exchange" target="_blank">
+                    <i className="fab fa-telegram"></i>Telegram
+                  </a>
+               
+                </div>
+                
+                
+                
+                </p>
                 <div className="footer-Text">
                   
                   
@@ -4200,6 +4235,30 @@ export default class Home extends PureComponent {
                 </div>
               </div>
                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                      
                     
