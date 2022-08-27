@@ -2306,7 +2306,7 @@ export default class Home extends PureComponent {
                       //     this.openPopup('About');
                       // }}
                       >
-                        <span>One click</span> DECENTRALIZED MULTICHAIN SWAP
+                        <span>One click</span> DECENTRALIZED MULTICHAIN SMART SWAP
                       </div>
                       <div className="smvTitle02 wow fadeInUp" data-wow-delay="0.2s">
                         {/* Unlimited Liquidity CeFi to Defi Decentralized Bridge <span style={{ color: '#525252' }}>|</span> AMM Alternative */}
@@ -3571,7 +3571,7 @@ export default class Home extends PureComponent {
                                 reimbursement
                               </div>
                               <p>
-                                Fees and gas reimbursed fully with THUNDER
+                                Fees and gas reimbursed fully with SMART
                                 <i className="help-circle">
                                   <i
                                     className="fas fa-question-circle protip"
@@ -3609,7 +3609,7 @@ export default class Home extends PureComponent {
                               <div className="text-Title">
                                 100% <br /> free license
                               </div>
-                              <p>Build your own ThunderSwap at no cost or become an affiliate </p>
+                              <p>Build your own SmartSwap at no cost or become an affiliate </p>
                             </div>
                           </div>
                           <div className="swap-Box01">
@@ -3925,11 +3925,11 @@ export default class Home extends PureComponent {
                         
                         
                         
-                          THUNDER Tokenomics in Action
+                          SMART Tokenomics in Action
                         </div>
                         <div className="ssText01 wow fadeInLeft" data-wow-delay="0.4s" style={{ marginTop: "0px" }}>
-                          ThunderSwap does not utilize LPs or pools therefore fees
-                          are used to support THUNDER through automatic buybacks.{" "}
+                          SmartSwap does not utilize LPs or pools therefore fees
+                          are used to support SMART through automatic buybacks.{" "}
                         </div>
 
                         <div className="stActMBX">
@@ -3962,7 +3962,7 @@ export default class Home extends PureComponent {
                           <div className="stActSbx01 wow zoomIn" data-wow-delay="0.3s">
                             {" "}
                             <span>
-                              THUNDER Bought and Burned
+                              SMART Bought and Burned
                             </span>
                             <div className="container">
                               <AnimatedNumber
@@ -4039,7 +4039,7 @@ export default class Home extends PureComponent {
                             <div className="wrapper">
                                 <div className="s20TeamContainer clearfix" id="our_advisor">
                                     <div className="s20Teambox01 clearfix" >
-                                        <div className="s20ttextbox02">Our Advisors</div>
+                                        <div className="s20ttextbox02">Team</div>
                                     </div>
                                     <div className="s20Teambox01 clearfix" >
                                         <div className="s20tImgbox ani-5">
