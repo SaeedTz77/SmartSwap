@@ -4183,9 +4183,7 @@ export default class Home extends PureComponent {
                 </div>
                 <p>© 2021 SmartSwap Exchange All rights reserved</p>
                 <div className="footer-Text">
-                  <p className="pob">
-                    Powered by <img src="images/atomFoundation-logo.png" alt="" />
-                  </p>
+                  
                   
                   
                    </div>
