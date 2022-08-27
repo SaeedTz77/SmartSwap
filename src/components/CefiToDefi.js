@@ -52,7 +52,7 @@ export default class CefiToDefi extends PureComponent {
                             <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-7">CeDeFi</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-8">Swap Provider</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">Process</a>
-                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">vs Atomic Swap</a>
+                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">Campare</a>
                         </div>
 
                         <div className={"tab-Content " + this.props.popId} id="tab-7">
