@@ -4039,7 +4039,7 @@ export default class Home extends PureComponent {
                             <div className="wrapper">
                                 <div className="s20TeamContainer clearfix" id="our_advisor">
                                     <div className="s20Teambox01 clearfix" >
-                                        <div className="s20ttextbox02">Team & Advisors</div>
+                                        <div className=""ssTitle01 wow fadeInRight" data-wow-delay="0.2s"">Team & Advisors</div>
                                     </div>
                                    
                                     
