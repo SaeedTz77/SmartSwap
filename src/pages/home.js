@@ -4039,17 +4039,9 @@ export default class Home extends PureComponent {
                             <div className="wrapper">
                                 <div className="s20TeamContainer clearfix" id="our_advisor">
                                     <div className="s20Teambox01 clearfix" >
-                                        <div className="s20ttextbox02">Team & Advisors</div>
+                                        <div className="s20ttextbox02">OPERATIN/Team & Advisors</div>
                                     </div>
-                                    <div className="s20Teambox01 clearfix" >
-                                        <div className="s20tImgbox ani-5">
-                                            <div className="s20RotaterBox"><a href="mailto:dee@jointer.io" target="_blank" className="teamLinkIcon"></a>
-                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-01.png" /></div>
-                                            </div>
-                                            <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/4/t2-ss_nNs3qoe.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/4/t2-ss_nNs3qoe.png" /> </div>
-                                        </div>
-                                        <div className="s20ttextbox"> <span>Dee Hock</span>Founder and former CEO of Visa Credit Card Association</div>
-                                    </div>
+                                   
                                     <div className="s20Teambox01 clearfix">
                                         <div className="s20tImgbox ani-5">
                                             <div className="s20RotaterBox"><a href="mailto:david@jointer.io" target="_blank" className="teamLinkIcon"></a>
