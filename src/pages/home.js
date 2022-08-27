@@ -4039,7 +4039,7 @@ export default class Home extends PureComponent {
                             <div className="wrapper">
                                 <div className="s20TeamContainer clearfix" id="our_advisor">
                                     <div className="s20Teambox01 clearfix" >
-                                        <div className="s20ttextbox02">OPERATIN/Team & Advisors</div>
+                                        <div className="s20ttextbox02">Team & Advisors</div>
                                     </div>
                                    
                                     
@@ -4053,7 +4053,7 @@ export default class Home extends PureComponent {
                                             </div>
                                             <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/33/01_cT0OyEA_6fmgSuE.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/33/01_cT0OyEA_6fmgSuE.png" /> </div>
                                         </div>
-                                        <div className="s20ttextbox"> <span>Koen Maris</span>IOTA Advisor Cybersecurity</div>
+                                        <div className="s20ttextbox"> <span>Koen Maris</span>Advisor</div>
                                     </div>
                                     <div className="s20Teambox01 clearfix" data-106000-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-107000-start="opacity:1; transform: scale(1) translate(0px, 0px);">
                                         <div className="s20tImgbox ani-5">
@@ -4061,7 +4061,7 @@ export default class Home extends PureComponent {
                                                 <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-07.png" /></div>
                                             </div>
                                         </div>
-                                        <div className="s20ttextbox"> <span>Alon Goren</span>Founding Partner at Goren Holm Ventures</div>
+                                        <div className="s20ttextbox"> <span>Alon Goren</span>Advisor</div>
                                     </div>
                                     <div className="s20Teambox01 clearfix" data-106500-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-107500-start="opacity:1; transform: scale(1) translate(0px, 0px);">
                                         <div className="s20tImgbox ani-5">
@@ -4070,7 +4070,7 @@ export default class Home extends PureComponent {
                                             </div>
                                             <div className="afterLogo"><img data-src="https://www.elementzero.network/api/private/mainSite/teamMember/36/500-logo.png" src="https://www.elementzero.network/api/private/mainSite/teamMember/36/500-logo.png" /> </div>
                                         </div>
-                                        <div className="s20ttextbox"> <span>Robert Neivert</span>Venture Partner at 500 Startups Head of blockchain program</div>
+                                        <div className="s20ttextbox"> <span>Robert Neivert</span>Advisor</div>
                                     </div>
                                 </div>
                             </div>
@@ -4101,7 +4101,7 @@ export default class Home extends PureComponent {
                           style={{ justifyContent: "center" }}
                         >
                           <Link to="/ownLicence" className="ssBtn01">
-                            FREE SMARTSWAP LICENSE
+                            WhitePaper
                           </Link>
                           <Link
                             to="/"
