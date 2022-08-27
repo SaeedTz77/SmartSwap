@@ -53,7 +53,87 @@ export default class CefiToDefi extends PureComponent {
                                 CeFi to DeFi</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-8">What is a Swap Provider</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">ThunderSwap Liquidity Process</a>
+                       <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">SmartSwap vs Atomic Swap & Other Swaps</a>
                         </div>
+
+
+
+
+<div className="tab-Nav showMobile " style={{ width: '100%' }}>
+                            <a href="javascript:void(0)" className="tab-Link " onClick={ev => { ev.preventDefault(); }} data-id="tab-5">SmartSwap vs Atomic Swap & Other Swaps</a>
+                        </div>
+                        <div className={"tab-Content " + this.props.popId} id="tab-5">
+                            <div className="peerTitle01">SmartSwap vs Atomic Swap</div>
+                            <div className="peerText01"> SmartSwap utilizes technology that allows cross-chain swaps between two assets without validator risk, wrapping, or side-chain utilization. The cross-chain swap is a true one-click swap between blockchain networks. The cross-chain swap has the ability to act like a bridge between blockchain networks based smart contracts such as Ethereum<br /><br />
+
+                                At the moment, SmartSwap supports swaps between BNB {'<>'} ETH and ERC20{'<>'}BEP20. SmartSwap capabilities present the first one-click swap that is not considered an atomic swap or reliant on time-locked swaps.
+
+                            </div>
+                            <div className='smrtvsatoTable01'>
+
+                                <table width="100%" border="0" cellSpacing="0" cellPadding="10">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="col">&nbsp;</th>
+                                            <th align="center" valign="middle" scope="col">DEXs <br />
+                                                <span>(Uniswap, Pancake, etc)</span></th>
+                                            <th align="center" valign="middle" scope="col">Binance Bridge</th>
+                                            <th align="center" valign="middle" scope="col">
+                                                <img src="images/menu-rb-logo.png" alt="" />
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>Decentralized cross-chain</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>One click cross-chain</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Unlimited liquidity</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Slippage free</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fee reimbursement</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gas reimbursement</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Token price correlated to platform usage</td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-times"></i></td>
+                                            <td align="center" valign="middle"><i className="fas fa-check"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+
+
+
+
+
 
                         <div className={"tab-Content " + this.props.popId} id="tab-7">
                             <div className="peerTitle01">DECENTRALIZED CeFi {'<>'} DeFi BRIDGE</div>
