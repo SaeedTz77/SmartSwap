@@ -3721,7 +3721,7 @@ export default class Home extends PureComponent {
                             to="/"
                             className="ssBtn02"
                             onClick={() => {
-                              this.openPopup("LiquidityProvider");
+                              this.openPopup("CefiToDefi");
                             }}
                           >
                             <span>BECOME A SWAP PROVIDER</span>{" "}
