@@ -4147,11 +4147,11 @@ export default class Home extends PureComponent {
                           <Link
                             to="/"
                             className="ssBtn02"
-                            onClick={() => {
-                              this.openPopup("LiquidityProvider");
-                            }}
+                            onClick={(ev) => {
+                      ev.preventDefault();
+                      this.showWithId("CefiToDefi", "tab-7");
                           >
-                            <span>BECOME A SWAP PROVIDER</span>{" "}
+                            <span>HOW IT WORK</span>{" "}
                           </Link>
                         </div>
                         
