@@ -3719,7 +3719,7 @@ export default class Home extends PureComponent {
                           >
                           <Link
                             to="/"
-                            className="ssBtn02"
+                            className="ssBtn01"
                             onClick={() => {
                               this.openPopup("CefiToDefi");
                             }}
@@ -4146,10 +4146,10 @@ export default class Home extends PureComponent {
                           </Link>
                           <Link
                             to="/"
-                            className="ssBtn02"
-                            onClick={(ev) => {
-                      ev.preventDefault();
-                      this.showWithId("CefiToDefi", "tab-7");
+                            className="ssBtn01"
+                            onClick={() => {
+                              this.openPopup("CefiToDefi");
+                            }}
                           >
                             <span>HOW IT WORK</span>{" "}
                           </Link>
