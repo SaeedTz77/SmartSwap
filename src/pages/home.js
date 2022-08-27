@@ -3741,6 +3741,52 @@ export default class Home extends PureComponent {
                         
                         
                         
+                  <div
+                          className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
+                          style={{ justifyContent: "center" }}
+                          >
+                          <Link
+                            to="/"
+                            className="ssBtn02"
+                            onClick={() => {
+                              this.openPopup("LiquidityProvider");
+                            }}
+                          >
+                            <span>BECOME A SWAP PROVIDER</span>{" "}
+                          </Link>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
@@ -4019,21 +4065,27 @@ export default class Home extends PureComponent {
                        
                        
                        
+                       <div className="swap-Block">
+                    <div className="swap-textBox" style={{ paddingTop: 0 }}>
+                      <div className="container-Grid" onPointerEnter={() => { this.updateTotalAmounts() }}>
                         <div
-                          className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
+                          className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
-                          >
+                        >
+                          <Link to="/ownLicence" className="ssBtn01 ani-1">
+                            FREE SMARTSWAP LICENSE
+                          </Link>
                           <Link
                             to="/"
-                            className="ssBtn02"
+                            className="ssBtn02 ani-1"
                             onClick={() => {
                               this.openPopup("LiquidityProvider");
                             }}
+
                           >
                             <span>BECOME A SWAP PROVIDER</span>{" "}
                           </Link>
                         </div>
-                        
                         
                         
                         
