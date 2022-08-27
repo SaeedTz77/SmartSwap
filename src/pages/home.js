@@ -4201,18 +4201,116 @@ export default class Home extends PureComponent {
                     <img src="images/menu-rb-logo.png" alt="" />
                   </a>
                 </div>
-                <p>© 2021 SmartSwap Exchange All rights reserved
-                
-                
-                
-                
-                
-                </p>
-                <div className="footer-Text">
-                  
-                  
-                  
-                   </div>
+                <div className="footertop"></div>
+
+      <div className="footerbottom">
+        {/* <img className="leftimg" src="imgs/left-footer.png" alt="" /> */}
+        <div className="twolist">
+          <ul className="list-nav1">
+            {/* {!theme.isSubdomain && (
+              <li>
+                <a href="#" onClick={() => setClonePopUp(true)}>
+                  {prevCloneData ? "Continue Clone" : "Free license"}
+                </a>
+                <span className="column"></span>
+              </li>
+            )} */}
+            <li>
+              <a href="#" onClick={() => setClonePopUp(true)} className="active">
+                {continueClone ? "Continue Clone" : "Free license"}
+              </a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="#">Upgrade to v2</a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="#" onClick={() => setReimbursementPopup(true)} >100% gas and fees reimbursement</a>
+            </li>
+            <li>
+              <a href='https://dynamicswap.exchange/#bnb-degen' target='_blank'>
+                DEGEN: {price}
+                <span style={{ marginLeft: '15px', color: '#fcf302' }}>BUY NOW &gt;</span>
+              </a>
+            </li>
+            {/* <li>
+              <a href="#">Github</a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="#">Telegram</a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="#">Reddit</a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="#">Twitter</a>
+            </li> */}
+          </ul>
+
+          <ul className="list-nav2">
+            {/* <li>
+              Affiliate of <img src="imgs/footer-1inch.png" alt="" />{" "}
+              <span className="column"></span>
+            </li> */}
+
+
+            <li>Powered by Atom Foundation:</li>
+            <li>
+              <a href="https://smartswap.exchange/" target="_blank" >SmartSwap.exchange</a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="https://www.jointer.io/" target="_blank" >Jointer.io</a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="http://nft.mx/" target="_blank" >NFT.mx</a>
+              <span className="column"></span>
+            </li>
+
+            <li>
+              <a href="https://pdo.finance/" target="_blank" >PDO.finance </a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="#">DegenSwap.io </a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="https://dynamicswap.exchange/" target="_blank" >Dynamicswap.exchange </a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="https://freez.finance/" target="_blank" >Freez.finance       </a>
+              <span className="column"></span>
+            </li>
+            <li>
+              <a href="https://cbdc.science/" target="_blank" >CBDC.science </a>
+            </li>
+          </ul>
+        </div>
+        <div className="twologos">
+          <a href="#" className="logo-dull">
+            <img
+              id="blackimg"
+              src={
+                !theme.isDark
+                  ? "imgs/ethereumblack.png"
+                  : "imgs/ethereumblack_dark.png"
+              }
+              alt=""
+            />
+          </a>
+          <a href="#" className="logo-color">
+            {" "}
+            <img src="imgs/binance.png" alt="" />
+          </a>
+        </div>
+        </div>
                  
                 
                
