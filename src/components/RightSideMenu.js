@@ -75,9 +75,9 @@ export default class RightSideMenu extends PureComponent {
                 </a>
               </div>
               <div className="leftMenu mobile-block">
-                <Link to='/' className="active">SMART SWAP</Link>
-                <Link to='/extension'>SMART BRIDGE EXTENSION</Link>
-                <Link to='/projects'>SMART BRIDGE FOR PROJECTS</Link>
+                <Link to='/' className="active">SMARTSWAP</Link>
+                <Link to='/extension'>BRIDGE EXTENSION</Link>
+                <Link to='/projects'>BRIDGE FOR PROJECTS</Link>
               </div>
 <div className="msb-Linkbox01">
                 <a href="#">Buy SMART</a>
