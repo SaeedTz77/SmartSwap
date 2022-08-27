@@ -98,8 +98,8 @@ export default class Header extends PureComponent {
           </a>
         </div>
         <div className="leftMenu">
-          <Link to='/' className="active">THUNDERSWAP</Link>
-          <Link to='/extension'>THUNDERBRIDGE EXTENSION</Link>
+          <Link to='/' className="active">SMARTSWAP</Link>
+          <Link to='/extension'>SMARTBRIDGE EXTENSION</Link>
           <Link to='/projects'>BRIDGE FOR PROJECTS</Link>
         </div>
         <div className="rightMenu">
