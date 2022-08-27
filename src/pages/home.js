@@ -4141,7 +4141,7 @@ export default class Home extends PureComponent {
                           className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
                         >
-                          <Link <a
+                       <a
                     href="https://docsend.com/view/24h32qhisbiunjqk"
                     target="_blank"
                   >
