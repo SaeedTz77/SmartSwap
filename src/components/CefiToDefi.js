@@ -49,14 +49,14 @@ export default class CefiToDefi extends PureComponent {
                 <div className="container-Grid">
                     <div className="MainTabBox">
                         <div className="tab-Nav">
+            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">ThunderSwap vs Atomic Swap & Other Swaps</a>
                             <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-7">
                                 CeFi to DeFi</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-8">What is a Swap Provider</a>
                             <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">ThunderSwap Liquidity Process</a>
-                     <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">ThunderSwap vs Atomic Swap & Other Swaps</a>
+                     
                         </div>
 
-</div>
 
 
 
