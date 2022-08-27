@@ -4138,30 +4138,18 @@ export default class Home extends PureComponent {
                         
                         
                           <div
-                          className="ssBTNbar01 wow fadeInUp" data-wow-delay="0.2s"
+                          className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
                         >
-                       <a
-                    href="https://docsend.com/view/24h32qhisbiunjqk"
-                    target="_blank"
-                  >
-                    Whitepaper
-                  </a>
-                  className="ssBtn01 ani-1">
-                            whitepaper
-                          </div>
-                          
-                          
-                          
-                          
-                          
+                          <Link to="/ownLicence" className="ssBtn01">
+                            FREE SMARTSWAP LICENSE
+                          </Link>
                           <Link
                             to="/"
-                            className="ssBtn02 ani-1"
+                            className="ssBtn02"
                             onClick={() => {
                               this.openPopup("LiquidityProvider");
                             }}
-
                           >
                             <span>BECOME A SWAP PROVIDER</span>{" "}
                           </Link>
@@ -4419,7 +4407,7 @@ export default class Home extends PureComponent {
                         </div> */}
                       </div>
                     </div>
-                  
+                  </div>
                   {/* <!--======================= SWAP BLOCK END =====================--> */}
                 
             
