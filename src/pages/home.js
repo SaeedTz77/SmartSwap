@@ -4204,35 +4204,17 @@ export default class Home extends PureComponent {
                 <div className="footertop"></div>
 
       <div className="footerbottom">
-        {/* <img className="leftimg" src="imgs/left-footer.png" alt="" /> */}
+        
         <div className="twolist">
           <ul className="list-nav1">
-            {/* {!theme.isSubdomain && (
-              <li>
-                <a href="#" onClick={() => setClonePopUp(true)}>
-                  {prevCloneData ? "Continue Clone" : "Free license"}
-                </a>
-                <span className="column"></span>
-              </li>
-            )} */}
-            <li>
-              <a href="#" onClick={() => setClonePopUp(true)} className="active">
-                {continueClone ? "Continue Clone" : "Free license"}
-              </a>
-              <span className="column"></span>
-            </li>
+           
+            
             <li>
               <a href="#">Upgrade to v2</a>
               <span className="column"></span>
             </li>
-            <li>
-              <a href="#" onClick={() => setReimbursementPopup(true)} >100% gas and fees reimbursement</a>
-            </li>
-            <li>
-              <a href='https://dynamicswap.exchange/#bnb-degen' target='_blank'>
-                DEGEN: {price}
-                <span style={{ marginLeft: '15px', color: '#fcf302' }}>BUY NOW &gt;</span>
-              </a>
+            
+            
             </li>
             {/* <li>
               <a href="#">Github</a>
@@ -4252,10 +4234,7 @@ export default class Home extends PureComponent {
           </ul>
 
           <ul className="list-nav2">
-            {/* <li>
-              Affiliate of <img src="imgs/footer-1inch.png" alt="" />{" "}
-              <span className="column"></span>
-            </li> */}
+           
 
 
             <li>Powered by Atom Foundation:</li>
@@ -4293,23 +4272,8 @@ export default class Home extends PureComponent {
             </li>
           </ul>
         </div>
-        <div className="twologos">
-          <a href="#" className="logo-dull">
-            <img
-              id="blackimg"
-              src={
-                !theme.isDark
-                  ? "imgs/ethereumblack.png"
-                  : "imgs/ethereumblack_dark.png"
-              }
-              alt=""
-            />
-          </a>
-          <a href="#" className="logo-color">
-            {" "}
-            <img src="imgs/binance.png" alt="" />
-          </a>
-        </div>
+       
+       
         </div>
                  
                 
