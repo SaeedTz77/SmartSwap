@@ -4027,7 +4027,7 @@ export default class Home extends PureComponent {
                        
                        
                        
-                       
+                     
                        
                        
                        
@@ -4039,14 +4039,14 @@ export default class Home extends PureComponent {
                             <div className="wrapper">
                                 <div className="s20TeamContainer clearfix" id="our_advisor">
                                     <div className="s20Teambox01 clearfix" >
-                                        <div className="s20Teambox02">Team & Advisors</div>
+                                        <div className="lpBTNBar01">Team & Advisors</div>
                                     </div>
                                    
                                     
                                    
                                    <div className="s20Teambox01 clearfix" data-123000-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-124000-start="opacity:1; transform: scale(1) translate(0px, 0px);">
                                         <div className="s20tImgbox ani-5">
-                                            <div className="s20RotaterBox"><a href="https://www.linkedin.com/in/yoda-regev--09110214/" target="_blank" className="teamLinkIcon"></a>
+                                            <div className="s20RotaterBox"><a href="https://www.linkedin.com/in/yoda-regev-09110214/" target="_blank" className="teamLinkIcon"></a>
                                                 <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-013.png" /></div>
                                             </div>
                                         </div>
