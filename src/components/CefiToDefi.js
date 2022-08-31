@@ -166,7 +166,7 @@ export default class CefiToDefi extends PureComponent {
                         </div>
                     </div>
 
-                </div>
+              
                 <a href="javascript:void(0);" onClick={() => { this.props.closePopup("CefiToDefi") }} className="close-Icon"></a>
             </div>
 </div>
