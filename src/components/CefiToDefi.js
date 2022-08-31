@@ -50,9 +50,6 @@ export default class CefiToDefi extends PureComponent {
                     <div className="MainTabBox">
                         <div className="tab-Nav">
                             <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-7">CeDeFi</a>
-                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-8">Swap Provider</a>
-                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">Process</a>
-                            <a href="javascript:void(0)" className="tab-Link hideMobile" onClick={ev => { ev.preventDefault(); }} data-id="tab-5">Campare</a>
                         </div>
 
                         <div className={"tab-Content " + this.props.popId} id="tab-7">
@@ -69,10 +66,7 @@ export default class CefiToDefi extends PureComponent {
 
 
 
-<div className="tab-Nav showMobile " style={{ width: '100%' }}>
-                            <a href="javascript:void(0)" className="tab-Link " onClick={ev => { ev.preventDefault(); }} data-id="tab-5">SmartSwap vs Atomic Swap & Other Swaps</a>
-                        </div>
-                        <div className={"tab-Content " + this.props.popId} id="tab-5">
+
                             <div className="peerTitle01">SmartSwap vs Atomic Swap</div>
                             <div className="peerText01"> SmartSwap utilizes technology that allows cross-chain swaps between two assets without validator risk, wrapping, or side-chain utilization. The cross-chain swap is a true one-click swap between blockchain networks. The cross-chain swap has the ability to act like a bridge between blockchain networks based smart contracts such as Ethereum<br /><br />
 
@@ -149,13 +143,9 @@ export default class CefiToDefi extends PureComponent {
 
 
 
-                        <div className="tab-Nav showMobile " style={{ width: '100%' }} >
-                            <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-8">
-                                What is a Swap Provider</a>
-                        </div>
+                      
 
 
-                        <div className={"tab-Content " + this.props.popId} id="tab-8">
 
                             <div className="peerTitle01">What is a Swap Provider</div>
                             <div className="peerText01">SmartSwap allows anyone with a Centralized Exchange account, like Binance, to utilize a simple decentralized API and become an Swap Provider (SP). The SP’s drive liquidity into SmartSwap allows the SP to earn automatic spread on their favorite tokens.<br />
@@ -166,10 +156,7 @@ export default class CefiToDefi extends PureComponent {
                                 <button className="ssBtn02" onClick={() => { this.props.closePopup("CefiToDefi"); this.props.openPopup("LiquidityProvider") }}>BECOME AN SP</button> </div>
                         </div>
 
-                        <div className="tab-Nav showMobile " style={{ width: '100%' }} >
-                            <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-9">SmartSwap Liquidity Process</a>
-                        </div>
-                        <div className={"tab-Content " + this.props.popId} id="tab-9">
+                        
                             <div className="peerTitle01">SmartSwap Liquidity Process</div>
                             <div className="peerText01-v2"><i>1</i> User initiates a swap order </div>
                             <div className="peerText01-v2"><i>2</i> SmartSwap searches for a counterparty (Peer-to-Peer) </div>
