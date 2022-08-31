@@ -164,7 +164,7 @@ export default class CefiToDefi extends PureComponent {
                             <div className="peerText01-v2"><i>4</i> If a counterparty is not found and there is not enough liquidity from Swap Providers, the swap will remain pending until the Swap Providers recycle their liquidity like a fountain.</div>
                             <div className="peerText01-v2"><i>5</i> If pending orders execute at a later time, users receive in return the exact same face value at the time of execution. </div>
                         </div>
-                    </div>
+                   
 
               
                 <a href="javascript:void(0);" onClick={() => { this.props.closePopup("CefiToDefi") }} className="close-Icon"></a>
