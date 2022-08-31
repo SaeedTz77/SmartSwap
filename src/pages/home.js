@@ -4044,7 +4044,26 @@ export default class Home extends PureComponent {
                                    
                                     
                                    
-                                   
+                                   <div className="s20Teambox01 clearfix" data-123000-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-124000-start="opacity:1; transform: scale(1) translate(0px, 0px);">
+                                        <div className="s20tImgbox ani-5">
+                                            <div className="s20RotaterBox"><a href="https://www.linkedin.com/in/yoda-regev--09110214/" target="_blank" className="teamLinkIcon"></a>
+                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-013.png" /></div>
+                                            </div>
+                                        </div>
+                                        <div className="s20ttextbox"> <span>Yoda G Regev<br />
+                                            CEO & CTO</span>Serial Entrepreneur with 5 Startups and 3 exits</div>
+                                    </div>
+                                    
+                                    
+                                    <div className="s20Teambox01 clearfix" data-122500-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-123500-start="opacity:1; transform: scale(1) translate(0px, 0px);">
+                                        <div className="s20tImgbox ani-5">
+                                            <div className="s20RotaterBox"><a href="https://www.linkedin.com/in/kylewhitepr/" target="_blank" className="teamLinkIcon"></a>
+                                                <div className="teamImgNPbox"><img alt="" src="images/team/teamImg-014.png" /></div>
+                                            </div>
+                                        </div>
+                                        <div className="s20ttextbox"> <span>Kyle White<br />
+                                            CMO</span>Venture Marketing totaling $16B market cap</div>
+                                    </div>
                                    
                                     <div className="s20Teambox01 clearfix" data-105500-start="opacity:0; transform: scale(1.3) translate(0px, 0px);" data-106500-start="opacity:1; transform: scale(1) translate(0px, 0px);">
                                         <div className="s20tImgbox ani-5">
