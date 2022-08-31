@@ -49,7 +49,7 @@ export default class CefiToDefi extends PureComponent {
                 <div className="container-Grid">
                     <div className="MainTabBox">
                         <div className="tab-Nav">
-                            <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-7">CeDeFi</a>
+                            <a href="javascript:void(0)" className="tab-Link" onClick={ev => { ev.preventDefault(); }} data-id="tab-7"> </a>
                         </div>
 
                         <div className={"tab-Content " + this.props.popId} id="tab-7">
