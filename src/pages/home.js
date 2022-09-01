@@ -4114,32 +4114,7 @@ export default class Home extends PureComponent {
                         
                         
                         
-                        
-                          <div
-                          className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
-                          style={{ justifyContent: "center" }}
-                        >
-                          <link to="//docsend.com/view/5ux7g4m6uwjs2h7y" className="ssBtn01">
-                            WhitePaper
-                          </link>
-                          <Link
-                            to="/"
-                            className="ssBtn01"
-                            onClick={() => {
-                              this.openPopup("CefiToDefi");
-                            }}
-                          >
-                            <span>HOW IT WORK</span>{" "}
-                          </Link>
-                        
-                        
-                         >
-                          <link to="//docsend.com/view/5ux7g4m6uwjs2h7y" className="ssBtn01">
-                            WhitePaper
-                          </link>
-                        
-                        </div>
-                        
+                  
                         
                         
                         
