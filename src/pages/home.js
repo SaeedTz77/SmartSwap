@@ -4131,14 +4131,14 @@ export default class Home extends PureComponent {
                           >
                             <span>HOW IT WORK</span>{" "}
                           </Link>
-                        </div>
+                        
                         
                          >
                           <link to="//docsend.com/view/5ux7g4m6uwjs2h7y" className="ssBtn01">
                             WhitePaper
                           </link>
                         
-                        
+                        </div>
                         
                         
                         
