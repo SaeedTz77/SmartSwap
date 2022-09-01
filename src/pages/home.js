@@ -4119,9 +4119,9 @@ export default class Home extends PureComponent {
                           className="ssBTNbar01 wow fadeInUp mt-145 mb-135" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
                         >
-                          <a to="//docsend.com/view/5ux7g4m6uwjs2h7y" className="ssBtn01">
+                          <link to="//docsend.com/view/5ux7g4m6uwjs2h7y" className="ssBtn01">
                             WhitePaper
-                          </a>
+                          </link>
                           <Link
                             to="/"
                             className="ssBtn01"
@@ -4133,33 +4133,19 @@ export default class Home extends PureComponent {
                           </Link>
                         </div>
                         
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                         <div
-                          className="ssBTNbar01 wow fadeInUp mt-5px mb-5px" data-wow-delay="0.2s"
-                          style={{ justifyContent: "center" }}
-                        >
-                          <Link to="/ownLicence" className="ssBtn02">
+                         >
+                          <link to="//docsend.com/view/5ux7g4m6uwjs2h7y" className="ssBtn01">
                             WhitePaper
-                          </Link>
-                          <Link
-                            to="/"
-                            className="ssBtn02"
-                            onClick={() => {
-                              this.openPopup("CefiToDefi");
-                            }}
-                          >
-                            <span>HOW IT WORK</span>{" "}
-                          </Link>
-                        </div>
+                          </link>
                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       
                         
                         
                         
