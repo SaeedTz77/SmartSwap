@@ -4146,12 +4146,12 @@ export default class Home extends PureComponent {
                           className="ssBTNbar01 wow fadeInUp mt-5px mb-5px" data-wow-delay="0.2s"
                           style={{ justifyContent: "center" }}
                         >
-                          <Link to="/ownLicence" className="ssBtn01">
+                          <Link to="/ownLicence" className="ssBtn02">
                             WhitePaper
                           </Link>
                           <Link
                             to="/"
-                            className="ssBtn01"
+                            className="ssBtn02"
                             onClick={() => {
                               this.openPopup("CefiToDefi");
                             }}
